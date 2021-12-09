@@ -1,0 +1,38 @@
+.random-input:first-child{
+    margin-left: 0;
+}
+.random-input{
+    width: 150px;
+    padding: 10px 0 10px 15px;
+    outline: none;
+    border: 0;
+    margin-left: 30px;
+}
+
+.random-inputs button{
+    margin-left: 30px;
+    padding: 10px 15px;
+    border: 3px solid #1424a3;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.random-inputs button:hover{
+    background-color: #1424a3;
+    color: white;
+}
+
+
+.random-output{
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+
+.error{
+    width: 100%;
+    padding: 20px 0;
+    background: red;
+    color: white;
+}
